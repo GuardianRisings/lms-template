@@ -27,7 +27,7 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
 
 <div align="center">
   <video width="80%" controls>
-    <source src="./public/demo/demo.mp4" type="video/mp4">
+    <source src="https://img.hoclieu.vn/demo.mp4" type="video/mp4">
   </video>
 </div>
 
