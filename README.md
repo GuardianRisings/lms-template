@@ -25,7 +25,11 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
 
 ## 🎬 **Demo App**
 
-[![Video demo](https://guardianrisings.github.io/lms-template/public/demo/anh3.jpg)](https://guardianrisings.github.io/lms-template/#-demo-app)
+[![Video demo](https://guardianrisings.github.io/lms-template/public/demo/anh3.jpg)](https://github.com/user-attachments/assets/0c2c209c-3fef-48dd-98e5-3662ed455590)
+
+
+
+
 
 ---
 
