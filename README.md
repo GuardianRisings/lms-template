@@ -33,12 +33,6 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
 
 ---
 
-## 🌍 **About**
-
-Discover the wonders of the universe with our **STEAM LAB**! Learn fascinating facts about planets, test your space knowledge with quizzes, and engage in interactive puzzle games to keep you entertained and educated. Whether you're a casual learner or a space enthusiast, this app has something for everyone!
-
----
-
 ## 🚀 **Features**
 
 ### 🪐 **Authentication**
