@@ -6,17 +6,6 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
 
 ---
 
-## 🎬 **Demo App**
-
-<div align="center">
-  <video width="400" height="300" controls>
-    <source src="https://www.w3schools.com/movie.mp4" type="video/mp4">
-    <source src="https://www.w3schools.com/movie.ogg" type="video/ogg">
-  </video>
-</div>
-
----
-
 ## 🗂 **Table of Contents**
 
 - [🌌 STEAM LAB](#)
@@ -29,11 +18,21 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
       - [🧩 Course Creation](#courses-creation)
   - [📸 Screenshots](#screenshots)
   - [⚙️ Getting Started](#getting-started)
-    - [🛠 Prerequisites](#prerequisites)w
+    - [🛠 Prerequisites](#prerequisites)
     - [📥 Installation](#installation)
 
 ---
-s
+
+## 🎬 **Demo App**
+
+<div align="center">
+  <video width="80%" controls>
+    <source src="./public/demo/demo.mp4" type="video/mp4">
+  </video>
+</div>
+
+---
+
 ## 🌍 **About**
 
 Discover the wonders of the universe with our **STEAM LAB**! Learn fascinating facts about planets, test your space knowledge with quizzes, and engage in interactive puzzle games to keep you entertained and educated. Whether you're a casual learner or a space enthusiast, this app has something for everyone!
@@ -42,31 +41,41 @@ Discover the wonders of the universe with our **STEAM LAB**! Learn fascinating f
 
 ## 🚀 **Features**
 
-### 🪐 **Planet Information**
+### 🪐 **Authentication**
 
-- **Detailed Descriptions**: Explore each planet's structure, size, atmosphere, and other unique features.
-- **Stunning Visuals**: Enjoy high-quality images and videos that showcase the beauty of planets.
+- **Sign In**: The **Sign In** page enables existing users to log into their accounts.
+  - **Sign In with Google**: A button labeled "Continue with Google" allows users to sign in using their Google account.
+  - **Email Sign In**: Users can also sign in using their email address.
 
-### 🧠 **Planetarium Quiz**
 
-- **Challenging Quizzes**: Test your knowledge of the cosmos with questions about planets, stars, and astronomical events.
-- **Random & Topic-Specific Quizzes**: Choose between random questions or focus on specific topics of interest.
+- **Sign Up**: The **Sign Up** page allows new users to create an account.
+  - **Sign Up with Google**: A button labeled "Continue with Google" allows users to register using their Google account.
 
-### 🧩 **Image Puzzle Game**
+  - **Email and Password Fields**: Users can sign up by entering an email address and a password.
 
-- **Engaging Puzzle Challenges**: Solve puzzles featuring cosmic images to sharpen your skills and knowledge of the universe.
-- **Progressive Levels**: Each puzzle gets harder, challenging you to think critically and solve with precision.
+### 🧠 **Courses Enroll**
+The Courses Enroll feature for the STEAM program allows users to explore and enroll in a variety of educational courses in the fields of Science, Technology, Engineering, Arts, and Mathematics. Each course is designed to provide learners with engaging and interactive content that fosters both practical skills and creativity.
+
+-  **STEAM Categories**: The courses are divided into five main STEAM disciplines:
+    - **Science**: Explore experiments, scientific activities, and lessons in physics, chemistry, and biology.
+    - **Technology**: Dive into the world of cutting-edge technology, from AI and robotics to coding and cybersecurity.
+    - **Engineering**: Learn about mechanical, civil, and electrical engineering principles and projects.
+    - **Arts**: Integrate creativity with science and technology, focusing on design thinking, digital art, and more.
+    - **Mathematics**: Enhance analytical skills and problem-solving through various mathematics-based courses.
+
+### 🧩 **Course Creation**
+The **Course Creation** feature empowers administrators, educators, or content creators to build and manage their own courses within the platform. This functionality is particularly designed to accommodate the wide range of subjects under the STEAM umbrella (Science, Technology, Engineering, Arts, and Mathematics), providing the tools necessary to deliver engaging and educational content for learners of all levels.
 
 ---
 
 ## 📸 **Screenshots**
 
 <div align="center">
-  <img src="./assets/anh1.jpg" width="30%" alt='Screenshot 1'>
-  <img src="./assets/anh2.jpg" width="30%" alt='Screenshot 2'>
-  <img src="./assets/anh3.jpg" width="30%" alt='Screenshot 3'>
-  <img src="./assets/anh4.jpg" width="30%" alt='Screenshot 4'>
-  <img src="./assets/anh5.jpg" width="30%" alt='Screenshot 5'>
+  <img src="./public/demo/anh1.jpg" width="45%" alt='Screenshot 1'>
+  <img src="./public/demo/anh2.jpg" width="45%" alt='Screenshot 2'>
+  <img src="./public/demo/anh3.jpg" width="45%" alt='Screenshot 3'>
+  <img src="./public/demo/anh4.jpg" width="45%" alt='Screenshot 4'>
+  <img src="./public/demo/anh5.jpg" width="45%" alt='Screenshot 5'>
 </div>
 
 ---
@@ -77,24 +86,22 @@ Discover the wonders of the universe with our **STEAM LAB**! Learn fascinating f
 
 Make sure you have these tools installed before starting:
 
-- **[Node.js](https://nodejs.org/en/)** (v14+)
-- **[Expo](https://docs.expo.dev/get-started/installation/)** CLI
-- **[Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)**
+- **[Node.js](https://nodejs.org/en/)** (v18+)
 
 ### 📥 **Installation**
 
 1. **Clone the repository**:
     ```bash
-    git clone git@github.com:HeyHeyHeyHeyHe/app-thienvanhoc-.git
-    cd app-thienvanhoc-
+    git clone https://github.com/GuardianRisings/lms-template
+    cd lms-template
     ```
 
 2. **Install dependencies**:
     ```bash
-    yarn
+    pnpm
     ```
 
 3. **Start the app**:
     ```bash
-    yarn start
+    pnpm run dev
     ```
