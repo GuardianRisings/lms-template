@@ -24,12 +24,12 @@ STEAM LAB is a dynamic Learning Management System designed specifically for elem
 ---
 
 ## 🎬 **Demo App**
+[![Xem video](https://img.youtube.com/vi/KK8bkkixTrE/2.jpg)](https://img.hoclieu.vn/demo.mp4)
 
-<div align="center">
-  <video width="80%" controls>
+
+<video width="80%" controls>
     <source src="https://img.hoclieu.vn/demo.mp4" type="video/mp4">
-  </video>
-</div>
+</video>
 
 ---
 
